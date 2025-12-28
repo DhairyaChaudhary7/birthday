@@ -845,25 +845,24 @@ h1 {
 
 }
 #bgMusic {
-    position: relative;
-    top: 20px;
-    bottom: 20px;
+    position: fixed;
+    /* top: 200px; */
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%);
 
     width: 320px;
     max-width: 90%;
 
-    background: rgba(199, 28, 28, 0.15);
+    background: rgba(6, 220, 253, 0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
     border-radius: 14px;
     padding: 8px;
-
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    
+    box-shadow: 0 10px 30px rgba(226, 16, 170, 0.4);
     z-index: 999;
-    box-color: #c81919;
+    box-color: #da3737;
 }
 
 .button-group {
